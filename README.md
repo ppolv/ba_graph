@@ -6,11 +6,11 @@ A tool to generate graphs, based on the [Barabási–Albert (BA) model](http://e
 
 Usage
 -----
-The script takes three argumens
-* -n  Number of nodes in the graph
-* -m  How many edges to create for each node
-* -s  The format string
-* -d  If present, will at the end print the generated distribution (the distribution of node degrees)
+The script accepts the following argumens
+* n  Number of nodes in the graph (default 10000)
+* m  How many edges to create for each node (default 10)
+* s  The format string (default {a}\t{b})
+* d  If present, will at the end print the generated distribution (the distribution of node degrees). 
 
 Note that the script always generate edges in pairs,  a->b, b->a.  So a -m value of 10, will actually
 create a network whose average # of edges per node is 20.
@@ -32,7 +32,7 @@ that is 20' to generate 200000 nodes and 20000000 (twenty million) edges.
 
 For the above example, the resulting node degree distribution is:
 
-![distribution](raw/master/doc/distribution.png)
+![distribution](http://github.com/ppolv/ba_graph/raw/master/doc/distribution.png)
 (note the log10 scale)
  
 Have fun!
