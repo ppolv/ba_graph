@@ -32,7 +32,7 @@ that is 20' to generate 200000 nodes and 20000000 (twenty million) edges.
 
 For the above example, the resulting node degree distribution is:
 
-![distribution](/doc/distribution.png)
+![distribution](raw/master/doc/distribution.png)
 (note the log10 scale)
  
 Have fun!
